@@ -22,7 +22,7 @@ RUN DEBIAN_FRONTEND='noninteractive' apt-get install -y git gnupg flex bison gpe
   libx11-dev:i386 libreadline6-dev:i386 libgl1-mesa-glx:i386 \
   libgl1-mesa-dev g++-multilib mingw32 tofrodos \
   python-markdown libxml2-utils xsltproc zlib1g-dev:i386 schedtool \
-  g++-4.8-multilib vim bash-completion cpio
+  g++-4.8-multilib vim bash-completion cpio kmod
 
 # Add default user
 RUN adduser --disabled-password --quiet --gecos Developer developer
